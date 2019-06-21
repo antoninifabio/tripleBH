@@ -6,7 +6,7 @@ Code for integrating the secular equations of motions for the three-body problem
 Also includes relativistic terms for the inner binary, including:  
 ----1pN Pericenter precession (ala Ford+2000)  
 ----Gravitational Wave emission (ala Blaes+2002)  
-----Spin-Orbit coupling (ala me, following Barker and O'Connell 1975)  
+----Spin-Orbit coupling (following Barker and O'Connell 1975)  
 ----Spin-Spin coupling (same)  
   
 
