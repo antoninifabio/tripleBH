@@ -144,11 +144,11 @@ C     CALCULATE TIME DERIVATIVES                                    C
      &     -(1./2.-3.*e1**2+25./2.*e1j2**2
      &     -5./2.*j1j2**2)*cross(jv2/j2t,ev2))
      &     /TLK*L1/L2/j2t
-     &     -(2.*(e1j2*j1e2*cross(ev2/e2,jv)
-     &     +j1j2*e1e2*cross(ev2/e2,jv)
+     &     -(2.*(e1j2*j1e2*cross(ev2,jv)
+     &     +j1j2*e1e2*cross(ev2,jv)
      &     +j2t**2/e2*e1j2*j1j2*cross(jv2/j2t,jv))
-     &     +2.*j1e2*j1j2*cross(ev2/e2,ev)
-     &     -14.*e1e2*e1j2*cross(ev2/e2,ev)
+     &     +2.*j1e2*j1j2*cross(ev2,ev)
+     &     -14.*e1e2*e1j2*cross(ev2,ev)
      &     +j2t**2/e2*(8./5.*e1**2-1./5.
      &     -7.*e1j2**2+j1j2**2)*cross(jv2/j2t,ev)
      &     -2.*(1./5.-8./5.*e1**2)*e1e2*cross(ev2,jv2/j2t)
